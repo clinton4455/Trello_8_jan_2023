@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-09T05:55:35.933Z",
+        "line": 3,
+        "name": "Validating Board funtionality in trello",
+        "description": "",
+        "id": "validating-board-funtionality-in-trello-website;validating-board-funtionality-in-trello",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11409667400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login into the trello and create board",
+            "match": {
+              "location": "Stepdefinition.login_into_the_trello_and_create_board()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13617220700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Create a list and name it as List A and  List B",
+            "match": {
+              "location": "Stepdefinition.create_a_list_and_name_it_as_List_A_and_List_B()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 749340500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Add a card in list A and using drag and drop in List B",
+            "match": {
+              "location": "Stepdefinition.add_a_card_in_list_A_and_using_drag_and_drop_in_List_B()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 649372000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Logout",
+            "match": {
+              "location": "Stepdefinition.logout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Board funtionality in trello website",
+    "description": "",
+    "id": "validating-board-funtionality-in-trello-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/Trello.feature",
+    "tags": []
+  }
+]
